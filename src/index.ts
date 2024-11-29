@@ -90,8 +90,6 @@ export default function ({
       state.set("has_import_" + name, true)
       const [moduleSource, importName] = config.runtimeConfigModule[name]
 
-      console.log(name, moduleSource, importName, config)
-
       const [newPath] = path.insertAfter(
         t.importDeclaration(
           [
