@@ -4,4 +4,4 @@
 
 This is fork of the [babel-plugin-lingui-macro](https://www.npmjs.com/package/babel-plugin-lingui-macro) with SolidJS support.
 
-Use it babel plugin with [lingui-solid](https://www.npmjs.com/package/lingui-solid).
+Use this babel plugin with [lingui-solid](https://www.npmjs.com/package/lingui-solid).
