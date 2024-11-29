@@ -2,7 +2,7 @@
 
 # Summary
 
-This is fork of the [babel-plugin-lingui-macro](https://www.npmjs.com/package/babel-plugin-lingui-macro) with SolidJS support.
+This is fork of the [@lingui/babel-plugin-lingui-macro](https://www.npmjs.com/package/@lingui/babel-plugin-lingui-macro) with SolidJS support.
 
 Use this babel plugin with [lingui-solid](https://www.npmjs.com/package/lingui-solid).
 
