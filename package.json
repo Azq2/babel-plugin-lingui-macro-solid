@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-lingui-solid-macro",
+  "name": "babel-plugin-lingui-macro-solid",
   "version": "5.0.3",
   "description": "Babel plugin for transforming Lingui Macros",
   "main": "./dist/index.cjs",
@@ -72,10 +72,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Azq2/babel-plugin-lingui-solid-macro"
+    "url": "https://github.com/Azq2/babel-plugin-lingu-macroi-solid"
   },
   "bugs": {
-    "url": "https://github.com/Azq2/babel-plugin-lingui-solid-macro"
+    "url": "https://github.com/Azq2/babel-plugin-lingui-macro-solid"
   },
   "engines": {
     "node": ">=20.0.0"
