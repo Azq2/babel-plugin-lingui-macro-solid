@@ -18,14 +18,14 @@ importers:
         specifier: ^7.20.7
         version: 7.26.0
       '@lingui/conf':
-        specifier: 5.0.0
-        version: 5.0.0(typescript@5.7.2)
+        specifier: ^5.1.0
+        version: 5.1.0(typescript@5.7.2)
       '@lingui/core':
-        specifier: 5.0.0
-        version: 5.0.0(babel-plugin-macros@3.1.0)
+        specifier: ^5.1.0
+        version: 5.1.0(babel-plugin-macros@3.1.0)
       '@lingui/message-utils':
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: ^5.1.0
+        version: 5.1.0
       '@types/babel__core':
         specifier: ^7.20.5
         version: 7.20.5
@@ -35,15 +35,9 @@ importers:
       '@types/node':
         specifier: ^22.10.1
         version: 22.10.1
-      babel-plugin-lingui-solid-macro:
-        specifier: 'link:'
-        version: 'link:'
       babel-plugin-macros:
         specifier: 2 || 3
         version: 3.1.0
-      message-utils:
-        specifier: link:@lingui/message-utils
-        version: link:@lingui/message-utils
     devDependencies:
       '@babel/parser':
         specifier: ^7.20.15
@@ -453,12 +447,12 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lingui/conf@5.0.0':
-    resolution: {integrity: sha512-m+2WxU4SG+vL8L5i/wdQ8/H0u5LQt6ZqIhxonyA2y7+llxRzjmr6GOikYaCiHPPWKG4gUUk+wXGsz9ZJyFB7tA==}
+  '@lingui/conf@5.1.0':
+    resolution: {integrity: sha512-EDILmdZpZ2vXiEEd1eU6aHIm3SqynSzH+X3SkOlO6/j0imT5JAq5XhSLm8mddd2xlvI0CufgGKS8O4XrW3DUIw==}
     engines: {node: '>=20.0.0'}
 
-  '@lingui/core@5.0.0':
-    resolution: {integrity: sha512-2FShuKNI/tlENOa/4uCZckuDV6ddNfvigUsG7CdOgKH5QHJdl5nwXZ33s5Ea8+7Oih9NpHZvys2kalBwsYYr3Q==}
+  '@lingui/core@5.1.0':
+    resolution: {integrity: sha512-mjkKvcUMbzmkbyR/JnW4FM56oAnLvVNup1zvKoBQ/kPt+w1rIRCpE0Sr67RY19tlqlAO8ZR2C+IBrUjegSNmSw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@lingui/babel-plugin-lingui-macro': 5.0.0
@@ -469,8 +463,8 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  '@lingui/message-utils@5.0.0':
-    resolution: {integrity: sha512-Y1EwezciY7BL4dVIEhJA+eyp0ZVxXxT2U0tlnvrHDXEqJZchlVdjYosdsuuKcvZbbTXUEkwyR0wXQ9dKxAlXrg==}
+  '@lingui/message-utils@5.1.0':
+    resolution: {integrity: sha512-MKfq4a2QuPK5SfIjo6UI0Hc0r+jaaNu0UxZm23L+3jE8pmnSC+Dr5kIp2MGXmr8ywoGezgYP25sU/nwNE8rmkg==}
     engines: {node: '>=20.0.0'}
 
   '@messageformat/parser@5.1.0':
@@ -1801,7 +1795,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lingui/conf@5.0.0(typescript@5.7.2)':
+  '@lingui/conf@5.1.0(typescript@5.7.2)':
     dependencies:
       '@babel/runtime': 7.26.0
       chalk: 4.1.2
@@ -1812,15 +1806,15 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@lingui/core@5.0.0(babel-plugin-macros@3.1.0)':
+  '@lingui/core@5.1.0(babel-plugin-macros@3.1.0)':
     dependencies:
       '@babel/runtime': 7.26.0
-      '@lingui/message-utils': 5.0.0
+      '@lingui/message-utils': 5.1.0
       unraw: 3.0.0
     optionalDependencies:
       babel-plugin-macros: 3.1.0
 
-  '@lingui/message-utils@5.0.0':
+  '@lingui/message-utils@5.1.0':
     dependencies:
       '@messageformat/parser': 5.1.0
       js-sha256: 0.10.1

@@ -43,26 +43,6 @@
         "types": "./dist/index.d.mts",
         "default": "./dist/index.mjs"
       }
-    },
-    "./macro": {
-      "require": {
-        "types": "./dist/macro.d.cts",
-        "default": "./dist/macro.cjs"
-      },
-      "import": {
-        "types": "./dist/macro.d.mts",
-        "default": "./dist/macro.mjs"
-      }
-    },
-    "./ast": {
-      "require": {
-        "types": "./dist/ast.d.cts",
-        "default": "./dist/ast.cjs"
-      },
-      "import": {
-        "types": "./dist/ast.d.mts",
-        "default": "./dist/ast.mjs"
-      }
     }
   },
   "files": [
@@ -84,17 +64,15 @@
     "@babel/core": "^7.20.12",
     "@babel/runtime": "^7.20.13",
     "@babel/types": "^7.20.7",
-    "@lingui/conf": "5.0.0",
-    "@lingui/core": "5.0.0",
-    "@lingui/message-utils": "5.0.0",
     "@types/babel__core": "^7.20.5",
     "@types/babel__traverse": "^7.20.6",
-    "@types/node": "^22.10.1",
-    "babel-plugin-lingui-solid-macro": "link:",
-    "message-utils": "link:@lingui/message-utils"
+    "@types/node": "^22.10.1"
   },
   "peerDependencies": {
-    "babel-plugin-macros": "2 || 3"
+    "babel-plugin-macros": "2 || 3",
+    "@lingui/conf": "^5.1.0",
+    "@lingui/core": "^5.1.0",
+    "@lingui/message-utils": "^5.1.0"
   },
   "peerDependenciesMeta": {
     "babel-plugin-macros": {
