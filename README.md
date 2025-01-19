@@ -1,3 +1,6 @@
+> [!WARNING]
+> DEPRECATED! USE https://github.com/Azq2/js-lingui-solid
+
 [![NPM Version](https://img.shields.io/npm/v/babel-plugin-lingui-solid-macro)](https://www.npmjs.com/package/babel-plugin-lingui-solid-macro)
 
 # Summary
